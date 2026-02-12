@@ -1,0 +1,50 @@
+    .oladeji {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+    body {
+        padding-bottom: 200px;
+    }
+        .headmi {
+            text-align: center;
+        }    
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: lightpink;
+            color: black;
+        }
+        
+        tbody tr:nth-child(odd) {
+            background-color: lightskyblue; 
+        }
+
+       
+        tbody tr:nth-child(even) {
+            background-color: rgb(244, 243, 243);
+        }
+
+        tbody tr:hover {
+             background-color: rgb(245, 245, 196);
+             font-weight: 650;
+             font-family: arial, tahoma;
+             font-size: 13px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 130px;
+            border-radius: 20px;
+        }
+    
